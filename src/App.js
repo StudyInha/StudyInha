@@ -6,6 +6,7 @@ import ValuePropositionSection from './components/ValuePropositionSection';
 import TargetCustomerSection from './components/TargetCustomerSection';
 import CallToActionSection from './components/CallToActionSection';
 import Footer from './components/Footer';
+import FloatingKakaoButton from './components/FloatingKakaoButton';
 
 // 메인 컴포넌트
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <CallToActionSection />
       </main>
       <Footer />
+      <FloatingKakaoButton />
     </div>
   );
 }
