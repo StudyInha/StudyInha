@@ -16,7 +16,7 @@ const CallToActionSection = () => {
           <div className="bg-white text-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
             <h3 className="text-2xl font-bold text-blue-700 mb-3">내가 A+ 받은 경험이 있다면!</h3> {/* 텍스트 색상 조정 */}
             <p className="mb-5 text-gray-600 leading-relaxed">성적 증명서, 학습 자료와 함께 '판매자'로 문의주세요.</p>
-            <a href="문의_링크_판매자_작성_필요" className="inline-block bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-3 px-8 rounded-lg">
+            <a href="https://naver.me/FtGsDr2t" className="inline-block bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-3 px-8 rounded-lg">
               판매자 문의하기
             </a>
           </div>
@@ -25,7 +25,7 @@ const CallToActionSection = () => {
           <div className="bg-white text-gray-800 p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
             <h3 className="text-2xl font-bold text-blue-700 mb-3">이번 중간고사 잘 받고 싶다면!</h3> {/* 텍스트 색상 조정 */}
             <p className="mb-5 text-gray-600 leading-relaxed">원하는 핵심 교양 이름과 함께 '구매자'로 문의주세요.</p>
-            <a href="문의_링크_구매자_작성_필요" className="inline-block bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-3 px-8 rounded-lg">
+            <a href="https://naver.me/GkUVXVj6" className="inline-block bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-3 px-8 rounded-lg">
               구매자 문의하기
             </a>
           </div>
