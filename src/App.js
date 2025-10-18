@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import ProblemSection from './components/ProblemSection';
+import ValuePropositionSection from './components/ValuePropositionSection';
+import TargetCustomerSection from './components/TargetCustomerSection';
+import CallToActionSection from './components/CallToActionSection';
+import Footer from './components/Footer';
 
+// 메인 컴포넌트
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gray-50 font-sans">
+      <Header />
+      <main>
+        <HeroSection />
+        <ProblemSection />
+        <ValuePropositionSection />
+        <TargetCustomerSection />
+        <CallToActionSection />
+      </main>
+      <Footer />
     </div>
   );
 }
