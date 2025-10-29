@@ -1,6 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate('/sales');
+  };
+
   return (
     <section className="bg-white py-20 md:py-32 text-center overflow-hidden" id="hero">
       <div className="max-w-4xl mx-auto px-4 relative">
