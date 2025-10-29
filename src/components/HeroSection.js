@@ -5,7 +5,7 @@ const HeroSection = () => {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate('/sales');
+    navigate('/Sales');
   };
 
   return (
