@@ -5,7 +5,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate('/');
+    navigate('/study_inha');
   };
 
   return (
