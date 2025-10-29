@@ -15,7 +15,7 @@ const Header = () => {
             href="#cta" 
             className="ml-6 px-5 py-2 rounded-lg border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium transition duration-300"
           >
-            참여하기
+            베타테스터 참여하기
           </a> {/* CTA 버튼 스타일 변경: 심플한 윤곽선 버튼 */}
         </nav>
       </div>

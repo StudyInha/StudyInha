@@ -8,7 +8,7 @@ const CallToActionSection = () => {
           지금 바로 <span className="text-white drop-shadow-lg">베타 테스터</span>로 참여하세요!
         </h2> {/* 텍스트 강조 및 그림자 효과 추가 */}
         <p className="text-xl md:text-2xl mb-12 font-light">
-          **에타에 올리기 전, 여러분께 먼저 기회를 드립니다.**
+          저희는 여러분을 기다리고 있습니다 🤗
         </p>
         
         <div className="space-y-8 md:space-y-0 md:flex md:space-x-10 justify-center"> {/* 간격 조정 */}
