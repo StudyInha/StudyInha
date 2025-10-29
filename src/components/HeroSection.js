@@ -3,7 +3,7 @@ import React from 'react';
 const HeroSection = () => {
   return (
     <section className="bg-white py-20 md:py-32 text-center overflow-hidden" id="hero">
-      <div className="max-w-4xl mx-auto px-4 relative z-10">
+      <div className="max-w-4xl mx-auto px-4 relative">
         {/* 푸른색 그라데이션 강조 효과 */}
         <h1 className="text-4xl md:text-6xl font-extrabold mb-5 leading-tight text-gray-900">
           A+ 선배가 <br />
@@ -15,7 +15,8 @@ const HeroSection = () => {
           오직 <span className="font-semibold text-blue-700">인하대학교</span> 학생만을 위한 <span className="font-semibold text-blue-700">검증된</span> 핵심 교양 학습 자료 공유 플랫폼
         </p>
         <button 
-          onClick={() => document.getElementById('cta').scrollIntoView({ behavior: 'smooth' })}
+          onClick={handleNavigate}
+
           className="bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold py-3 px-8 rounded-lg shadow-md transition duration-300 transform hover:-translate-y-1"
         >
           🚀 A+ 받으러 가기
