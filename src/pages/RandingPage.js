@@ -8,29 +8,29 @@ import TargetCustomerSection from '../components/TargetCustomerSection';
 import CallToActionSection from '../components/CallToActionSection';
 import Footer from '../components/Footer';
 
-
-
 const RandingPage = () => {
   const location = useLocation();
 
-    useEffect(() => {
+  useEffect(() => {
     // 해시가 있으면 해당 요소로 스크롤
     if (location.hash) {
       const element = document.querySelector(location.hash);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
+    } else {
+      // 해시가 없으면 페이지 최상단으로 스크롤
+      window.scrollTo(0, 0);
     }
   }, [location]);
 
-
   return (
     <main>
-      <section id="hero"><HeroSection /></section>
-      <section id="problem"><ProblemSection /></section>
-      <section id="value"><ValuePropositionSection /></section>
-      <section id="target"><TargetCustomerSection /></section>
-      <section id="cta"><CallToActionSection /></section>
+      <HeroSection />
+      <ProblemSection />
+      <ValuePropositionSection />
+      <TargetCustomerSection />
+      <CallToActionSection />
       <Footer />
     </main>
   );

@@ -5,13 +5,12 @@ const HeroSection = () => {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
-    navigate('/Sales');
+    navigate('/StudyInha/Sales');
   };
 
   return (
     <section className="bg-white py-20 md:py-32 text-center overflow-hidden" id="hero">
       <div className="max-w-4xl mx-auto px-4 relative">
-        {/* 푸른색 그라데이션 강조 효과 */}
         <h1 className="text-4xl md:text-6xl font-extrabold mb-5 leading-tight text-gray-900">
           A+ 선배가 <br />
           <span className="bg-gradient-to-r from-blue-600 to-indigo-700 text-transparent bg-clip-text">
@@ -26,13 +25,11 @@ const HeroSection = () => {
         </p>
         <button 
           onClick={handleNavigate}
-
           className="bg-blue-600 hover:bg-blue-700 text-white text-lg font-bold py-3 px-8 rounded-lg shadow-md transition duration-300 transform hover:-translate-y-1"
         >
           🚀 A+ 받으러 가기
         </button>
         
-        {/* 배경에 은은한 푸른색 Blob 또는 패턴 (RAREBLOCKS의 배경 패턴처럼) */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
         <div className="absolute top-0 right-0 w-72 h-72 bg-indigo-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
       </div>

@@ -13,7 +13,7 @@ function App() {
         
         <Routes>
           <Route path="/StudyInha" element={<RandingPage />} />
-          <Route path="/Sales" element={<SalePage />} />
+          <Route path="/StudyInha/Sales" element={<SalePage />} />
         </Routes>
 
         <FloatingKakaoButton />
