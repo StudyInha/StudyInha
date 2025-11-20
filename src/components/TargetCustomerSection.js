@@ -12,30 +12,38 @@ const TargetCustomerSection = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-gray-50" id="target"> {/* 배경색 조정 */}
+    <section className="py-16 md:py-24 bg-gray-50" id="target">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 text-center mb-16">
-          🤝 우리의 고객은 누구일까요?
+        {/* 제목: 모바일 2xl, 데스크탑 4xl + 줄바꿈 제어 */}
+        <h2 className="text-2xl md:text-4xl font-extrabold text-gray-900 text-center mb-12 md:mb-16 break-keep">
+          🤝 우리의 고객은 <br className="md:hidden" /> 누구일까요?
         </h2>
         
-        <h3 className="text-2xl font-bold text-blue-700 mb-6 border-l-4 border-blue-300 pl-4">📚 구매자 (수요자)</h3> {/* 색상, 테두리 조정 */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
+        {/* 소제목: 모바일 xl, 데스크탑 2xl */}
+        <h3 className="text-xl md:text-2xl font-bold text-blue-700 mb-6 border-l-4 border-blue-300 pl-4">
+          📚 구매자 (수요자)
+        </h3>
+        <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-12 md:mb-16">
           {buyerTargets.map((t, index) => (
-            <div key={index} className="bg-white p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition duration-300"> {/* 배경, 그림자, 테두리 조정 */}
-              <h4 className="text-xl font-bold text-blue-600 mb-2">{t.title}</h4> {/* 색상 조정 */}
-              <p className="text-gray-700">{t.desc}</p>
-              <p className="mt-3 text-sm font-semibold text-gray-500">주요 관심 과목: {t.needs.join(', ')}</p>
+            <div key={index} className="bg-white p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+              {/* 카드 제목: 모바일 lg, 데스크탑 xl */}
+              <h4 className="text-lg md:text-xl font-bold text-blue-600 mb-2">{t.title}</h4>
+              {/* 본문: 모바일 sm, 데스크탑 base + break-keep */}
+              <p className="text-gray-700 text-sm md:text-base break-keep">{t.desc}</p>
+              <p className="mt-3 text-xs md:text-sm font-semibold text-gray-500">주요 관심 과목: {t.needs.join(', ')}</p>
             </div>
           ))}
         </div>
 
-        <h3 className="text-2xl font-bold text-blue-700 mb-6 border-l-4 border-blue-300 pl-4">💰 판매자 (공급자)</h3> {/* 색상, 테두리 조정 */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <h3 className="text-xl md:text-2xl font-bold text-blue-700 mb-6 border-l-4 border-blue-300 pl-4">
+          💰 판매자 (공급자)
+        </h3>
+        <div className="grid md:grid-cols-2 gap-6 md:gap-8">
           {sellerTargets.map((t, index) => (
-            <div key={index} className="bg-white p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition duration-300"> {/* 배경, 그림자, 테두리 조정 */}
-              <h4 className="text-xl font-bold text-blue-600 mb-2">{t.title}</h4> {/* 색상 조정 */}
-              <p className="text-gray-700">{t.desc}</p>
-              <p className="mt-3 text-sm font-semibold text-gray-500">주요 동기: {t.incentive}</p>
+            <div key={index} className="bg-white p-6 border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+              <h4 className="text-lg md:text-xl font-bold text-blue-600 mb-2">{t.title}</h4>
+              <p className="text-gray-700 text-sm md:text-base break-keep">{t.desc}</p>
+              <p className="mt-3 text-xs md:text-sm font-semibold text-gray-500">주요 동기: {t.incentive}</p>
             </div>
           ))}
         </div>
