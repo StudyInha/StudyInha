@@ -18,8 +18,11 @@ const HeroSection = () => {
             직접 정리한 교양 노트 모음집
           </span> 📝
         </h1>
-        <p className="text-lg md:text-xl mb-10 text-gray-600 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl mb-2 text-gray-600 max-w-2xl mx-auto">
           오직 <span className="font-semibold text-blue-700">인하대학교</span> 학생만을 위한 <span className="font-semibold text-blue-700">검증된</span> 핵심 교양 학습 자료 공유 플랫폼
+        </p>
+          <p className="text-lg md:text-xl mb-10 text-gray-600 max-w-2xl mx-auto">
+          지금 신청해야 <span className="font-semibold text-blue-700">반값</span>이에요! 놓치지 마세요 ⏰ (11/30 까지) <br />
         </p>
         <button 
           onClick={handleNavigate}
@@ -38,33 +41,3 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-// Note: `animate-blob`과 `animation-delay-2000`은 Tailwind CSS 구성에 사용자 정의 애니메이션을 추가해야 합니다.
-// tailwind.config.js 에 다음을 추가하세요:
-/*
-  module.exports = {
-    theme: {
-      extend: {
-        animation: {
-          blob: "blob 7s infinite",
-        },
-        keyframes: {
-          blob: {
-            "0%": {
-              transform: "translate(0px, 0px) scale(1)",
-            },
-            "33%": {
-              transform: "translate(30px, -50px) scale(1.1)",
-            },
-            "66%": {
-              transform: "translate(-20px, 20px) scale(0.9)",
-            },
-            "100%": {
-              transform: "translate(0px, 0px) scale(1)",
-            },
-          },
-        },
-      },
-    },
-  };
-*/
