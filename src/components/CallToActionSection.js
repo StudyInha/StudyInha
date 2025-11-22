@@ -18,9 +18,9 @@ const CallToActionSection = () => {
         <div className="space-y-8 md:space-y-0 md:flex md:space-x-10 justify-center">
           {/* 판매자 CTA */}
           <div className="bg-white text-gray-800 p-6 md:p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
-            <h3 className="text-xl md:text-2xl font-bold text-blue-700 mb-3 break-keep">내가 A+ 받은 경험이 있다면!</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-blue-700 mb-3 break-keep">손수 제작한 멋진 노트가 있다면!</h3>
             <p className="mb-5 text-gray-600 text-sm md:text-base leading-relaxed break-keep">
-              성적 증명서, 학습 자료와 함께<br/>'판매자'로 문의주세요.
+              여러분의 학습 노트와 함께<br/>'판매자'로 문의주세요.
             </p>
             <a href="https://naver.me/FtGsDr2t" className="inline-block bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-3 px-8 rounded-lg transition">
               판매자 문의하기
@@ -29,9 +29,9 @@ const CallToActionSection = () => {
 
           {/* 구매자 CTA */}
           <div className="bg-white text-gray-800 p-6 md:p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105">
-            <h3 className="text-xl md:text-2xl font-bold text-blue-700 mb-3 break-keep">이번 중간고사 잘 받고 싶다면!</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-blue-700 mb-3 break-keep">이번 기말고사 잘 받고 싶다면!</h3>
             <p className="mb-5 text-gray-600 text-sm md:text-base leading-relaxed break-keep">
-              원하는 핵심 교양 이름과 함께<br/>'구매자'로 문의주세요.
+              원하는 과목의 이름과 함께<br/>'구매자'로 문의주세요.
             </p>
             <a href="https://naver.me/GkUVXVj6" className="inline-block bg-indigo-700 hover:bg-indigo-800 text-white font-bold py-3 px-8 rounded-lg transition">
               구매자 문의하기
@@ -40,9 +40,13 @@ const CallToActionSection = () => {
         </div>
         
         <p className="text-xs md:text-sm mt-12 text-blue-200 break-keep px-4">
-          *1차 지원 과목은 최대 5개 과목으로 구매자 수요 현황에 따라 최종 선정됩니다.
+          *11/30까지 접수해주신 분들 중 원하시는 분께 정식 오픈 시 알림을 드립니다.
           <br/>
-          *최종 선정된 분들은 베타 테스터로 주기적인 인터뷰/설문 요청이 있을 수 있습니다.
+          *사전예약해주신 구매자 분들께 선택한 과목의 노트를 50% 할인된 가격에 제공해드립니다!
+          <br/>
+          *사전예약해주신 판매자 분들께는 첫 판매 시 수수료 우대 혜택을 드립니다!
+          <br/>
+          *사전예약해주신 분들 중 인터뷰/추가 설문 요청이 있을 수 있습니다.
         </p>
       </div>
     </section>
