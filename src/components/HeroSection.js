@@ -17,18 +17,18 @@ const HeroSection = () => {
           A+ 선배가 <br className="md:hidden" /> 
           {/* 모바일에서만 줄바꿈 & 아이콘 숨김 */}
           <span className="bg-gradient-to-r from-blue-600 to-indigo-700 text-transparent bg-clip-text block md:inline mt-2 md:mt-0">
-            직접 정리한 교양 노트
+            직접 정리한 학습 노트
           </span> 
           <span className="hidden md:inline"> 📝 </span>
         </h1>
         
         <p className="text-base md:text-xl mb-4 text-gray-600 max-w-2xl mx-auto break-keep">
-          오직 <span className="font-semibold text-blue-700">인하대학교</span> 학생만을 위한 
+          오직 <span className="font-semibold text-blue-700">인하대학교</span> 학생만을 위한
           <br className="md:hidden" /> 
-          <span className="font-semibold text-blue-700">검증된</span> 핵심 교양 학습 자료 공유 플랫폼
+          <span className="font-semibold text-blue-700"> 검증된</span> 교양&전공 학습 노트 공유 플랫폼
         </p>
         <p className="text-base md:text-xl mb-10 text-gray-600 max-w-2xl mx-auto">
-          지금 신청해야 <span className="font-semibold text-blue-700">반값</span>이에요! (11/30 까지)
+          지금 신청해야 <span className="font-semibold text-blue-700">노트도 반값, 수수료도 반값</span>이에요! (11/30 까지)
         </p>
         
         <button 

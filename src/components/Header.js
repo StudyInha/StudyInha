@@ -23,7 +23,7 @@ return (
             className="text-xl md:text-2xl font-bold text-gray-900 hover:text-blue-600 transition duration-300"
             onClick={closeMenu}
           >
-            INHA 학습자료 플랫폼
+            INHA 학습 노트 플랫폼
           </Link>
 
           {/* 데스크탑 메뉴 (md 이상일 때만 보임) */}

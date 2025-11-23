@@ -21,8 +21,8 @@ const ValuePropositionSection = () => {
             <ul className="list-disc list-inside space-y-3 text-gray-700 text-sm md:text-base break-keep">
               <li><span className="font-bold text-blue-600">사전 검증제</span>로 자료의 질 보장 및 사기 불안 해소.</li>
               <li><span className="font-bold">인하대 중심 운영</span>으로 타 학교 자료 혼재 걱정 없음.</li>
-              <li><span className="font-bold">카테고리화된 검색</span>으로 원하는 핵심 교양 자료를 쉽게 찾음.</li>
-              <li>자료의 질에 따라 <span className="font-bold">평준화된 가격</span> 제공.</li>
+              <li><span className="font-bold">카테고리화된 검색</span>으로 원하는 핵심 교양 & 전공 자료를 쉽게 찾음.</li>
+              <li>번거로운 문의 없이 <span className="font-bold">깔끔하게 가격 노출.</span></li>
             </ul>
           </div>
           
