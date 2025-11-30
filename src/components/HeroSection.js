@@ -28,7 +28,7 @@ const HeroSection = () => {
           <span className="font-semibold text-blue-700"> 검증된</span> 교양&전공 학습 노트 공유 플랫폼
         </p>
         <p className="text-base md:text-xl mb-10 text-gray-600 max-w-2xl mx-auto">
-          지금 신청해야 <span className="font-semibold text-blue-700">노트는 반값, 수수료도 무료</span>에요! (11/30 까지)
+          <span className="font-semibold text-blue-700">[오픈 이벤트]</span> 12/5까지, 노트 반값 이벤트 연장! <span className="font-semibold text-blue-700">[오픈 이벤트]</span>
         </p>
         
         <button 
