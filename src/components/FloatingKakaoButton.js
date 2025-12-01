@@ -3,7 +3,7 @@ import { FaComment } from 'react-icons/fa';
 
 const FloatingKakaoButton = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const KAKAO_LINK = "https://open.kakao.com/o/soKs4vWh";
+  const KAKAO_LINK = "https://pf.kakao.com/_xoDHYn";
 
   const handleClick = () => {
     window.open(KAKAO_LINK, '_blank');
