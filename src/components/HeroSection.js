@@ -28,7 +28,7 @@ const HeroSection = () => {
           <span className="font-semibold text-blue-700"> 검증된</span> 교양&전공 학습 노트 공유 플랫폼
         </p>
         <p className="text-base md:text-xl mb-10 text-gray-600 max-w-2xl mx-auto">
-          <span className="font-semibold text-blue-700">[오픈 이벤트]</span> 12/5까지, 노트 반값 이벤트 연장! <span className="font-semibold text-blue-700">[오픈 이벤트]</span>
+          {/* <span className="font-semibold text-blue-700">오픈 이벤트</span> 12/5까지, 노트 반값 이벤트 연장! <span className="font-semibold text-blue-700"></span> */}
         </p>
         
         <button 
